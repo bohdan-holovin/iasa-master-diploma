@@ -1,22 +1,23 @@
-# Магістерська дисертація
+# Data Backup as a Service (BaaS)
 
-Резервне копіювання даних як послуга.
+## Overview
 
-Автор: Головін Богдан Олександрович. КПІ ім. Ігоря Сікорського, ІПСА, кафедра системного проектування, 2024 рік.
+The objective of this research is to create a platform that implements the concept of data backup as a service (BaaS). The focus of the study includes the methods and technologies involved in developing a BaaS platform, particularly utilizing Spring Boot, OpenFeign, React.js, and Web3.
 
-## Матеріали захисту
+## Research Methods
 
-- [Магістерська дисертація DOCX](docs/thesis/HolovinBO_2024mp.docx).
-- [Презентація PPTX](docs/presentation/HolovinBO_2024mp.pptx).
+The study employs the following methods:
 
-## Код
+- **Analysis of Modern Data Backup Methods and Technologies:** Investigating the latest techniques and tools used in data backup.
+- **Development Tools:** Exploring the capabilities of tools such as:
+  - **Spring Boot:** For the server-side development.
+  - **OpenFeign:** For message exchange between client and server.
+  - **React.js:** For creating the user interface.
 
-| Каталог | Призначення |
-| --- | --- |
-| `diploma_client` | Клієнтський Spring Boot застосунок, автентифікація та керування резервними копіями |
-| `diploma_client/frontend` | Вебінтерфейс React і TypeScript |
-| `diploma_server` | Сервер зберігання резервних копій локально та в AWS S3 |
+## Relevance
 
-Технології: Java, Kotlin, Spring Boot, OpenFeign, React, TypeScript, Web3, AWS S3, Gradle.
+In today's information society, the importance of reliable and efficient data storage is growing. The development of a data backup platform as a service is highly relevant, offering enterprises and users the ability to automate and optimize data storage and recovery processes. This is particularly crucial considering the rapid advancement of cloud technologies and the increasing need for data security.
 
-Код збережено зі старими залежностями та локальними шляхами. Збірку й запуск під час упорядкування не перевіряли.
+## Results
+
+The outcome of this project is a platform with implemented data backup capabilities. This platform serves as a foundation for further development and integration.

@@ -35,3 +35,8 @@ diploma_client/backup_zip/
 **/~$*
 .DS_Store
 Thumbs.db
+
+# Defense materials belong in the private legacy repository
+/docs/thesis/
+/docs/presentation/
+/docs/defense/
